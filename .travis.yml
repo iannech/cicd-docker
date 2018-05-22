@@ -1,2 +1,33 @@
+sudo: required
 language: java
 jdk: oraclejdk8
+services:
+- docker
+env:
+  global:
+  - secure: D0oWfy92EgUp+BrOaO6fvA70MnxsTjzWwipzt9QbO3/Cmq1N+exPC1HqVJC2STBj/iKaw9m8FmWPDDBSXWQjY7Jvcwk1c+NUJBvQuyyJX0hiw5wsMf3M4jLkoCHcBcAIpfCtxU29IEUW+tDcVqz/joAIyFjgATffOwE0hmsB/lmB6yeL2BrWRooErVoCjuJEC7wDf2+GoBeUaY+T/WX2ihD+25EecrRAqvZgYchZbuQGy9FsUosQZw50dchK8DrVobXeHL7sduuyXy8zlWsiEfmI3uKgLJSjaojk4h+aBUlSqAH9v2EpmGTsNwg+OOOUomReGyb+29BCrYu4JeiG1XMU2KOz0QAW5lWVEXzki+ZCwB+/qoiISLGNZCFoUV/HA9BqEv5Bu353AMxiwQnj/JeU+7TdbkoRZ8RjHpF8uAkcEa10EkSzkLfDKpeJaUTIlXHTkdi0wCoswkK1N0Z7/BUc+GodMgBU5G9JFick3mSeWoJ/nBrvLBQ8pWUn9pY0VFxrhJsN+4rzMXQlDZ9IhGlAfYBQlNeyn+NSYndrmssYnsVdBt3ywcIbkKalh0m594xKvzieywZVn7qg4qNUvs7x6JjSa6vVdDu/Fmgt7ssEklK5qdyw9a5ikXAbwbG4a3wSLVK2CF480LHS1Cj3sfHP9l1a8dI4+x5SjWOgiWM=
+  - secure: OrlPk1boRMlNf4GaSXri5QVR3+o7k7GlHJ1iQO+CwAY6Sm4HdkVyBwwj7zT3sA39TfR2rUV/tIljYETU+HmEK6EL5FPBztvi1L1P7NnOE4qdZqyEsHRWVeRN/Vl5guwU+L6mYTcaOxeoOY3A2yg/1f8yjpDEFEWL96w8HosedcNfGBfWts8b3UMdCZ8Ex0XP8gGAnx7sVeP1wJjL2v9Vyi2RK3DnZhlincLdKj4ZJwAIEwipCGWykD+NhRc2hGCP9n1oJWynAll7gGFdSXLlzeFxb3rVfh7mPW9iThl12FW5ZybBdD1wQ+d1AcggBKJUFaKvsGJ6Ssh3O3JJ0Iq8P63Nc40i5bUxagb0ms8XA7+zHdo+C0MEea7tfTB94gY0nSQu+pD6Sdse3tMV8J0ZDpUpc9TFgdR+gcFMaruK02ZkCIKh0Eb+NASDjbYpnSXXypAh/wLeWVMntNQbfk+D8iLyyXNDhNlUGzGrXAkeBCcEFKgbYWOK/pJh/64hwv+o4dmdnA72wwRxSPYhw+0FfQBC1NyX5wFNK/ZyL2zWznvmT/ytkU7YVZm/CVK1ubyoSRIIKiD7T8lyhD+e5KZ0RSuHuHV+w54E2ObRiHhMh//gIFgkuiBua/4enerW0CpOqbl30Bfq4dBfeM/MHpcqOY8JBEMbnJmX3SlreBN+7dk=
+  - secure: POA5riHR1mqxNEOD4f3WootfESuFm7FtvYXdhCKJYs5F8xk/SERH2uanjckTwMPv+aSbDTfGlhu5POu5JbFbnvNAT0yCs4Xyu+hmC8lP7vJey27FyC7UvhoT7BQOvdz0fmwL4A6aKSioMpwLCy7uFnzP84IRtiU3+lFC1dsTspdON6gLCjyYAaiQ5tacX+flWZ/0CxHSKOyd4A8N3wRzgFIm4TiUFx2gYAnz3Z2/quWALXQNQj/oIJ1lfG5MtBgET9V+iR3+QNJTpXkJHPY+tzTE35eJZOaFynAoWrSv8dFCa0SZUXHNoejLrFqxOCPrGXS9GoHADyw+vbcHaXgCJ+Fx/pP/WN2TA+RlZ9mzOkePxB/RITDCErcseW2vdmyz7JnL5cUryOrZ5AtFkk5SCqDnmu2ymowdq1jH4wO8SpqUNSgBXB9yg+8whZ6oPLKylD4tRlPvDILkjnzGnO1+05IFTfylHVnNPZ6xbxVk7IwQ+NlEFRWJGHP3yccaU9PAyeReS7Pd3Ddeu98G0E7GHWBNfLt2HIvWvyx8ZCvLYx6MLpDdfDnpma2K6M6dbsCvCEgyU9JcE1Yh61tX4KKEptAVxhRURf7tyM/RGwYXAa/RX6I2BwWKUqOtfj+0uLdIHURbBVE2dSQ2ELwHq1nAtTJYofryiJzVQPS773L4O0I=
+  - secure: oG5ENMm9wV4BP2ks0q8Uh8/m8ETGJEJVKuiOy5Tt216Av7B5JxXO6aytj+8TuDkXx3rSB/eVq3PoJlhOcAqHPFUl6QbZZGsMl0Sm24hD72gPGzdK5GdYzNX6LUopn4IuyEXziYZwACF2xVNM3eQ11Xo4pszPOWIUWJ1iXym1EbQ7bhBMmAq6eE9HHXtITRb8+VDFPfNU+uxdyByof9pZ7xkA9fMDlaYMWmmP9rwGYgWSq7LkmPxQQmoNv19SNDzfZMeFA048aCgU53UJz/GMinc5e8GEb0sR1h7PkKqEaKXs60vPDPZ9kp0hHrycQM1aO6+w9tklIHcTWLmt9JHdEaaXFZOB519m2a/VWajmWF9GWmWZ/QgueBBqNq0Iog6TU7jXPkll7nYa8/zOVaVc6cZ6SOijmkM8oIyN4oNzLuGgzXjYB9VruCTAWB6GwiJTwlcdnGSnwwkwrwSuCMJPdf5guvogBMDD722Tzn6A3Xw5rXn4JoxLXhjj0a2eBCU7b3ohhL+NZIxEaLBovl0rM1YrLxoKb1IiFBH9D7TqwTKIPSNaLy6jPHluHLE7lnnrIE1qJiOd4gKd/LGCn1zKU3fQgtLDMQN/RQwkH3vhsazHVIuEhHfxqe6uAoNVISIqhbuZbV6eGNizNsvXIvHJgSmfGnhaNXirTaZs0jxH3xM=
+after_success:
+- docker login -u $DOCKER_USER -p $DOCKER_PASS
+- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
+- export IMAGE_NAME=iannech/cicd-docker
+- docker build -t $IMAGE_NAME:$COMMIT .
+- docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
+- docker push $IMAGE_NAME
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: cicd-docker
+  
+script:
+- "./mvnw clean install -B"
+- "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
+
+addons:
+  sonarcloud:
+    organization: "iannech-github"
+    token:
+      secure: $cicd
